@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(220, 253, 245);
+    padding: 20px;
+}
+button {
+    box-shadow: 1px black;
+    text-align: center;
+    display: block;margin: 7px;
+    font-size: 20px;
+    }
+.full {
+    display: block;
+    width: 180px;
+    height: 70px; 
+    background-color: rgb(74, 157, 253);
+    color:white; padding: 20px;
+    }
+.empty {
+    display: block;
+    text-align: center;
+    width: 180px;
+    height: 70px;
+    border: 2px solid rgb(74, 157, 253);
+    color: rgb(74, 157, 253);
+    background-color: rgb(220, 253, 245);
+    }
+#elipse {
+    display: block;
+    border-radius: 40px;
+    }
