@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+    background-color: lightgray;
+}
+
+table {
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 15px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.firstrow {
+    background-color: rgb(125, 110, 255);
+    color: white;
+    font-size: 20px;
+    text-align: left;
+}
+td, th {
+    padding-left: 35px;
+}
+tr { 
+    background-color: white;
+    color:rgba(0, 0, 0, 0.685);
+    height: 30px;
+}
+.greyrow {
+    background-color: rgb(241, 241, 241);
+}
